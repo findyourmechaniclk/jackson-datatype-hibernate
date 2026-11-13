@@ -1,5 +1,6 @@
 name: Re-build on jackson-databind v2 push
 on:
+  workflow_dispatch:
   repository_dispatch:
     types: [jackson-databind-pushed]
 
